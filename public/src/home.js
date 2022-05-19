@@ -59,7 +59,6 @@ function getMostPopularAuthors(books, authors) {
       let author = authors.find(auth=>auth.id==authorId);
       let name = `${author.name.first} ${author.name.last}`;  
        let retObj={name,count:authorsObj[authorId]};
-       console.log(retObj)
       return retObj;
     }).slice(0,5);
 
