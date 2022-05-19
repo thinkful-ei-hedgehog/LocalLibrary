@@ -21,7 +21,7 @@ describe("Accounts Page", () => {
     books = booksFixture.slice();
   });
 
-  describe("findAccountById()", () => {
+  /*describe("findAccountById()", () => {
     it("should return the account object when given a particular ID", () => {
       const account = accounts[3];
       const actual = findAccountById(accounts, account.id);
@@ -56,5 +56,5 @@ describe("Accounts Page", () => {
       expect(book.author.name).to.eql({ first: "Giles", last: "Barlow" });
       expect(book.title).to.equal("esse ea veniam non occaecat");
     });
-  });
+  });*/
 });

@@ -20,7 +20,7 @@ describe("Home Page", () => {
     books = booksFixture.slice();
   });
 
-  describe("getTotalBooksCount()", () => {
+  /*describe("getTotalBooksCount()", () => {
     it("should return the total number of books in the array", () => {
       const actual = getTotalBooksCount([{}, {}]);
       expect(actual).to.equal(2);
@@ -83,7 +83,7 @@ describe("Home Page", () => {
       const actual = getMostPopularBooks(books);
       expect(actual.length).to.equal(5);
     });
-  });
+  });*/
 
   describe("getMostPopularAuthors()", () => {
     it("should return an ordered list of most popular authors", () => {

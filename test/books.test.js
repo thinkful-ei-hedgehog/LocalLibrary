@@ -21,7 +21,7 @@ describe("Books Page", () => {
     books = booksFixture.slice();
   });
 
-  describe("findAuthorById()", () => {
+  /*describe("findAuthorById()", () => {
     it("should return the author object when given a particular ID", () => {
       const author = authors[3];
       const actual = findAuthorById(authors, author.id);
@@ -64,5 +64,5 @@ describe("Books Page", () => {
       const actual = getBorrowersForBook(book, accounts);
       expect(actual.length).to.equal(10);
     });
-  });
+  });*/
 });
