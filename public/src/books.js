@@ -1,24 +1,9 @@
 function findAuthorById(authors, id) {
-  let foundAuthor = {};
-  for (let i = 0; i < authors.length; i++) {
-    const author = authors[i];
-    if (author.id === id) {
-      foundAuthor = author;
-    }
-  }
-  return foundAuthor;
+    return authors.find(author=>author.id ===id);
 }
 
 function findBookById(books, id) {
-  let foundBook = {};
-  for (let i = 0; i < books.length; i++) {
-    const book = books[i];
-
-    if (book.id === id) {
-      foundBook = book;
-    }
-  }
-  return foundBook;
+  return books.find(book=> book.id ===id);
 }
 
 function partitionBooksByBorrowedStatus(books) {
